@@ -30,18 +30,54 @@ main {
     margin: 0
 }
 
-h6{font-size:1.2rem;}
-h5{font-size:1.4rem;}
-h4{font-size:1.65rem;}
-h3{font-size:2rem;}
-h2{font-size:2.4rem;}
-h1{font-size:3rem;}
+h6 {
+    font-size: 1.2rem;
+}
 
-body{
-    width: 55rem;
-    margin: 0 auto;
+h5 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.65rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+body {
     background-color: rgb(30 105 66);
+
+}
+
+main {
+    max-width: 90rem;
+    margin: 0 auto;
     color: white;
     padding-top: 2em;
     text-align: center;
+    margin-bottom: 3rem;
+    background-color: bisque
+}
+
+header {
+    background-color: aquamarine;
+    padding:0 2rem;
+    display: flex;   
+    justify-content: space-between;
+
+}
+
+ul.nav {
+    display: flex;   
+    flex-direction: row;
 }
