@@ -1,0 +1,20 @@
+main{
+    display:flex;
+   max-width:50rem;
+}
+
+main>section{
+    width:45%;
+}
+
+span.important{
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+img.profile-pic{
+    border-radius:8rem;
+}
