@@ -1,6 +1,6 @@
 main{
     display:flex;
-   max-width:50rem;
+
 }
 
 main>section{
@@ -18,3 +18,16 @@ ul{
 img.profile-pic{
     border-radius:8rem;
 }
+
+
+
+.red{
+    color:rgb(182, 23, 194);
+    font-size:1.2em;
+}
+
+h2.name:hover{
+    color:red;
+    cursor: progress;
+}
+

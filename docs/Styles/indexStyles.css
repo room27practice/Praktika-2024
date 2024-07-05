@@ -1,18 +1,30 @@
-
-
-
-.red{
-    color:red;
+.red {
+    color: red;
 }
 
-.green{
-    color:green;
+.green {
+    color: green;
 }
 
-.special-border{
-    border:5px solid purple;
+.special-border {
+    border: 5px solid purple;
 }
 
-div.izbutani{
-    margin-top:3rem;
+div.izbutani {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: justify-space-between;
+    flex-wrap: wrap;
+}
+
+div.izbutani>div.card {
+    min-width: 11rem;
+    margin: 0.5rem auto;
+}
+
+div.card:hover {
+    -webkit-box-shadow: inset 0px 0px 54px -8px rgba(191, 61, 191, 1);
+    -moz-box-shadow: inset 0px 0px 54px -8px rgba(191, 61, 191, 1);
+    box-shadow: inset 0px 0px 54px -8px rgba(191, 61, 191, 1);
+    border: 3px solid orange;
 }
