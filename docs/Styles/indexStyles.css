@@ -22,6 +22,10 @@ div.izbutani>div.card {
     margin: 0.5rem auto;
 }
 
+div.card>img{
+    height:24rem;
+}
+
 div.card:hover {
     -webkit-box-shadow: inset 0px 0px 54px -8px rgba(191, 61, 191, 1);
     -moz-box-shadow: inset 0px 0px 54px -8px rgba(191, 61, 191, 1);
